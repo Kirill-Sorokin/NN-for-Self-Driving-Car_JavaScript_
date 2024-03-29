@@ -10,3 +10,6 @@ Developed a system that emulates self driving cars using JavaScript. This also i
 - Neural network
 - Parallelisation
 - Genetic algorithm
+
+# Note(s):
+JavaScript is not the best choice when doing Artificial Intelligence, but since I am not using any libraries, it doesn't really matter.
