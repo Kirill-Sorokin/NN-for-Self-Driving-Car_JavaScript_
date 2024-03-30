@@ -20,3 +20,20 @@ function getIntersection(a,b,c,d){
     }
     return null;
 }
+
+function polysIntersect(poly_1, poly_2){
+    for(let i = 0; i < poly_1.length; i++){
+        for(let j = 0; j < poly_2.length; j++){
+            const touch = getIntersection(
+                poly_1[i],
+                poly_1[(i + 1)%poly_1.length],
+                poly_2[j],
+                poly_2[(j + 1)%poly_2.length]
+            );
+            if(touch){
+                return true;
+            }
+        }
+    }
+    return false;
+}
