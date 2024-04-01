@@ -8,7 +8,7 @@ const carCtx = carCanvas.getContext("2d");
 const networkCtx = networkCanvas.getContext("2d");
 
 const road=new Road(carCanvas.width/2,carCanvas.width*0.9);
-const car=new Car(road.getLaneCenter(1),100,25,47, "AI"); //our car
+const car=new Car(road.getLaneCenter(2),100,25,47, "AI"); //our car
 const N = 200;
 const cars = generateCars(N);
 let bestCar = cars[0];
