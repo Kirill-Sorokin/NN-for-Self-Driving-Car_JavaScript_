@@ -21,7 +21,7 @@ button{
     background:lightgray;
 }
 #networkCanvas{
-    background:black;
+    background:gray;
 }
 #carCanvas, #networkCanvas {
     margin: auto;
