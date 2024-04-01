@@ -26,3 +26,6 @@ button{
 #carCanvas, #networkCanvas {
     margin: auto;
 }
+button:hover{
+    background:blue;
+}
